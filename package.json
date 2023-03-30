@@ -1,6 +1,7 @@
 {
   "name": "mavka-pak",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "type": "module",
   "description": "Pak pak",
   "main": "src/main.js",
   "scripts": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mavka-ukr/pak/issues"
   },
-  "homepage": "https://github.com/mavka-ukr/pak#readme"
+  "homepage": "https://github.com/mavka-ukr/pak#readme",
+  "dependencies": {
+    "git-clone": "^0.2.0"
+  }
 }
