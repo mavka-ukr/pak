@@ -1,0 +1,23 @@
+{
+  "name": "mavka-pak",
+  "version": "0.0.1",
+  "description": "Pak pak",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavka-ukr/pak.git"
+  },
+  "keywords": [
+    "mavka",
+    "pak"
+  ],
+  "author": "kohutd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mavka-ukr/pak/issues"
+  },
+  "homepage": "https://github.com/mavka-ukr/pak#readme"
+}
