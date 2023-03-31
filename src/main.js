@@ -1,9 +1,10 @@
 /**
+ * @param {import("mavka").default} mavka
  * @param {string} name
  * @param {string} repoUrl
  * @param {string} rootPath
  */
-export async function pakAddFromRepoUrl(name, repoUrl, rootPath) {
+export async function pakAddFromRepoUrl(mavka, name, repoUrl, rootPath) {
     const { default: clone } = await import("git-clone/promise.js");
     const { default: fs } = await import("fs");
 
@@ -15,9 +16,12 @@ export async function pakAddFromRepoUrl(name, repoUrl, rootPath) {
 }
 
 /**
+ * @param {import("mavka").default} mavka
  * @param {string} inputModulePath
  * @param {string} outputModulePath
  */
-export async function pakCloud(inputModulePath, outputModulePath) {
-    //
+export async function pakCloud(mavka, inputModulePath, outputModulePath) {
+    // TODO: implement
+    // на вхід отримує шлях до стартового модуля
+    // а на виході записує зібраний хмарний модуль за потрібним шляхом
 }
